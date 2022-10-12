@@ -3,5 +3,42 @@
   <head>
     <title>HTML-Debrief</title>
   </head>
-  <body></body>
+  <body>
+    <form>
+      <label for="name">Name:</label>
+      <br>
+      <input type="text" id="name" required placeholder="eg. Jane Doe">
+      <br>
+      <label for="email">Email:</label>
+      <br>
+      <input type="email" id="email" required placeholder="eg. Janedoe@gmail.com">
+      <br>
+      <label for="phoneNum">Phone number:</label>
+      <br>
+      <input type="text" id=phoneNum required pattern="[0-9]+" placeholder="eg. 0423929303">
+      <br>
+      <br>
+      <a>Choose your favourite language:</a>
+      <br>
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">HTML</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">CSS</label><br>
+      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+      <label for="javascript">JavaScript</label>
+      <br>
+      <br>
+      <a>What operating systems have you used?</a>
+      <br>
+      <input type="checkbox" id="mac" name="mac" value="Mac">
+      <label for="vehicle1"> I have used a Mac</label><br>
+      <input type="checkbox" id="pc" name="pc" value="PC">
+      <label for="vehicle2"> I have used a PC</label><br>
+      <input type="checkbox" id="linux" name="linux" value="Linux">
+      <label for="vehicle3"> I have used Linux</label>
+      <br>
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
 </html>
